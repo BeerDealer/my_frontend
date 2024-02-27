@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Sirius';
+  src: url('../../assets/fonts/_.._files_Fonts_ALS_Sirius_1.3_desktop_ALS_Sirius_VF_1.3.ttf');
+  /* Дополнительные настройки шрифта (размер, начертание и т.д.) могут быть добавлены здесь */
+}
+
+body {
+  font-family: 'Sirius', sans-serif;
+}
+
+
+.my-awards {
+  width: 5rem;
+}
+
+
+.my-start {
+  width: 25rem;
+
+}
+
+
+
+
+/* .gradient-background {
+  background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+} */
