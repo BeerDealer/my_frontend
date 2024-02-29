@@ -15,6 +15,10 @@ html{
   }
 }
 
+body {
+  // background: radial-gradient(ellipse, #0212ff, #e6e6e6);
+  background-color: #e6e6e6;
+}
 
 .w-mai-icon{
   width: 6rem;
@@ -47,6 +51,13 @@ html{
   @include media-breakpoint-up(sm){
     font-size: 1.25rem;
     color: $check-color;
+  }
+}
+
+.h-sm-100 {
+  height: auto;
+  @include media-breakpoint-up(sm){
+    height: 100%;
   }
 }
 
@@ -97,18 +108,58 @@ html{
 }
 
 .fs-sm-6 {
-  font-size: $h9-font-size;
+  font-size: $h8-font-size;
   @include media-breakpoint-up(sm){
     font-size: $h6-font-size;
   }
+}
+
+.fs-xs-sm {
+  font-size: map-get($font-sizes, "xs");
+  @include media-breakpoint-up(sm){
+    font-size: map-get($font-sizes, "sm");
+  }
+}
+
+.fs-base-sm {
+  font-size: map-get($font-sizes, "ssm");
+  @include media-breakpoint-up(sm){
+    font-size: map-get($font-sizes, "sm-base");
+  }
+}
+
+.fs-ssm-sm {
+  font-size: $h9-font-size;
+  @include media-breakpoint-up(sm){
+    font-size: map-get($font-sizes, "ssm");
+  }
+}
+
+.my-awards {
+  width: 10rem;
 }
 
 .awards-mini {
   width: 88%;
 }
 
+.my-stars {
+  width: 8rem;
+}
+
+// for number icons
+.my-number {
+  width: 3rem;
+}
 
 .my-card {
   height: 43rem;
+  border: 0;
   border-radius: 8%;
+}
+
+.my-card-mini {
+  height: 28.5rem;
+  border: 0;
+  border-radius: 3rem;
 }

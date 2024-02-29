@@ -54,7 +54,9 @@ $font-sizes: (
   "lg":                                     calc(var(--font-size-base) * 2),
   "md":                                     calc(var(--font-size-base) * 1.5),
   "base":                                   calc(var(--font-size-base)),
+  "sm-base":                                calc(var(--font-size-base) * .9),
   "sm":                                     calc(var(--font-size-base) * .8),
+  "ssm":                                    calc(var(--font-size-base) * .59),
   "xs":                                     calc(var(--font-size-base) * .5)
 );
 
